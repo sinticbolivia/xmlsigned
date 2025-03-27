@@ -1,3 +1,11 @@
+/**
+ * Class to sign xml documents
+ *
+ * @package Vala SBFramework
+ * @author J. Marcelo Aviles - SinticBolivia
+ * @website https://sinticbolivia.net
+ * @licence GNU/GPL3
+ */
 using Gee;
 using GnuTLS;
 using Xml;
@@ -15,6 +23,7 @@ namespace SinticBolivia.Classes
         INVALID_IMPORT,
         INVALID_CERTIFICATE
     }
+
     public class SBXmlSigner
     {
         //*
